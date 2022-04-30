@@ -3,7 +3,7 @@
 }
 
 .main {
-  min-height: 100vh;
+  min-height: calc(100vh - 84px);
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -51,7 +51,8 @@
 }
 
 .description {
-  margin: 4rem 0;
+  height: 60vh;
+  margin-top: 1rem;
   line-height: 1.5;
   font-size: 1.5rem;
 }
