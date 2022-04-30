@@ -38,13 +38,14 @@ const Home: NextPage = () => {
               width="100%"
               height="100%"
               controls
+              loop
             />
           )}
         </div>
       </main>
 
       <footer className={styles.footer}>
-        Powered by <span className={styles.logo}>🫶🫶🫶</span>
+        Powered by <span className={styles.logo}>🫶Quang🫶Hà🫶</span>
       </footer>
     </div>
   )
