@@ -10,6 +10,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url(../public/bkg.jpeg);
+  opacity: 0.8;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .footer {
@@ -29,7 +34,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #f3007e;
   text-decoration: none;
 }
 
@@ -40,6 +45,7 @@
 }
 
 .title {
+  color: teal;
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
