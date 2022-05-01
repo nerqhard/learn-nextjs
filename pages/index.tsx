@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import ReactPlayer from 'react-player'
+import Typewriter from 'typewriter-effect'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -26,7 +27,13 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://www.youtube.com/watch?v=Qy_ADdVXv6Q&ab_channel=1967">Pé JI 610 🫶</a>
+          <Typewriter
+            options={{
+              strings: ['Happy birthday to me 🥳', 'Thanks Trang Lete 🥰'],
+              autoStart: true,
+              loop: true,
+            }}
+          />
         </h1>
 
         <div className={styles.description}>

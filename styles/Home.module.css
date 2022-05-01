@@ -1,9 +1,9 @@
 .container {
-  padding: 0 2rem;
+  padding: 0;
 }
 
 .main {
-  min-height: calc(100vh - 84px);
+  min-height: calc(100vh - 60px);
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -20,7 +20,7 @@
 .footer {
   display: flex;
   flex: 1;
-  padding: 2rem 0;
+  padding: 20px 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
@@ -45,7 +45,9 @@
 }
 
 .title {
-  color: teal;
+  white-space: break-spaces;
+  font-size: 72px;
+  color: #1440e5f5;
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
@@ -57,7 +59,7 @@
 }
 
 .description {
-  height: 60vh;
+  height: 50vh;
   margin-top: 1rem;
   line-height: 1.5;
   font-size: 1.5rem;
