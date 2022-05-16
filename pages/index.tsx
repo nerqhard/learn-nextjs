@@ -29,7 +29,7 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>
           <Typewriter
             options={{
-              strings: ['Happy birthday to me !', 'Thank you for fulfilling my life', '<3 Trang Lete <3'],
+              strings: ['Hôm nay ngàyy 16/5/2022', 'Thảo Trang đòi mua đồ hở hang', 'Trang hư quá'],
               autoStart: true,
               loop: true,
             }}
