@@ -1,0 +1,7 @@
+.iconHeader {
+    width: 100px;
+    cursor: pointer;
+}
+.header {
+    display: flex;
+}
