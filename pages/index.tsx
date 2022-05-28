@@ -16,11 +16,13 @@ const Home: NextPage = () => {
     }, [])
 
     return (
-        <div>
+        <div className={styles.home}>
             <LaptopWorking />
-            <h1 className={styles.title}>
-                <TextAnimation />
-            </h1>
+            <div className={styles.info}>
+                <h1 className={styles.title}>
+                    <TextAnimation />
+                </h1>
+            </div>
         </div>
     )
 }

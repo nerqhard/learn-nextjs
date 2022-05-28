@@ -21,11 +21,23 @@
   height: 100%;  
   opacity: .6; 
   z-index: -1;
-  background-image: url(../public/bkg.jpeg);
+  background-image: url(../public/bkg2.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.notFound {
+  width: calc(100vh - 200px);
+}
 
+.home {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
 
+.info {
+  width: 100%;
+  height: 300px;
+}

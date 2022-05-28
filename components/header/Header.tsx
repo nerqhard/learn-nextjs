@@ -3,6 +3,7 @@ import React from 'react'
 import { useRouter } from 'next/router'
 import classes from './Header.module.css'
 import { Tooltip } from '@mui/material'
+import { MenuItem } from './menu-item/MenuItem'
 
 export const Header = () => {
     const router = useRouter()
@@ -13,18 +14,14 @@ export const Header = () => {
     const handleOnClickMain = () => {
         router.push('./')
     }
+    const handleOnClickSetting = () => {
+        router.push('./')
+    }
     return (
         <div className={classes.header}>
-        <div className={classes.iconHeader} onClick={handleOnClickMain}>
-            <Tooltip title="Go to Home">
-                <IconAnimations path="/work-from-home.json" />
-            </Tooltip>
-        </div>
-        <div className={classes.iconHeader} onClick={handleOnClickVideos}>
-            <Tooltip title="Go to my videos">
-                <IconAnimations path="/energy-rocket.json" />
-            </Tooltip>
-        </div>
+            <MenuItem onClick={handleOnClickMain} pathAnimation={'/work-from-home.json'} title={'Go to Home'}/>
+            <MenuItem onClick={handleOnClickVideos} pathAnimation={'/energy-rocket.json'} title={'Go to My Videos'}/>
+            <MenuItem onClick={handleOnClickSetting} pathAnimation={'/setting.json'} title={'Go to Setting'}/>
         </div>
     )
 }
