@@ -1,0 +1,2 @@
+export const GET_TEXT_DISPLAY = 'GET_TEXT_DISPLAY';
+export const SET_TEXT_DISPLAY = 'SET_TEXT_DISPLAY';

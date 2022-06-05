@@ -18,7 +18,9 @@
     "paths": {
       "@/components/*": ["./component/*"],
       "@/hooks/*": ["./hooks/*"],
+      "@/redux/*": ["redũ/*"],
       "@/animations/*": ["./animations/*"],
+      "@/base/*": ["./*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "utils/magnify.js"],

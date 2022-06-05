@@ -1,6 +1,6 @@
 import { IconAnimations } from 'components/animations/IconAnimations'
 import React from 'react'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 
 const Custom404 = () => {
   return (

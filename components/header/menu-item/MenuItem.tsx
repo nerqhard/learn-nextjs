@@ -15,7 +15,9 @@ export const MenuItem: FC<MenuItemProps> = (props) => {
     return (
         <div className={classes.menuItem} onClick={onClick}>
             <Tooltip title={title}>
-                <IconAnimations path={pathAnimation} />
+                <div>
+                    <IconAnimations path={pathAnimation} />
+                </div>
             </Tooltip>
         </div>
     )

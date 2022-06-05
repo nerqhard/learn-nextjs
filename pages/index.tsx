@@ -2,17 +2,15 @@ import { LaptopWorking } from 'components/lottie/laptop-working/LaptopWorking'
 import TextAnimation from 'components/text-animation/TextAnimation'
 import type { NextPage } from 'next'
 import { useEffect, useState } from 'react'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
+import { useDispatch } from 'react-redux'
+import { getTextDisplay } from '../redux/common/operation'
 
 const Home: NextPage = () => {
-    const [isMount, setIsMount] = useState(false)
-
+    const dispatch = useDispatch();
+    
     useEffect(() => {
-        setIsMount(true)
-
-        return () => {
-            setIsMount(false)
-        }
+        dispatch(getTextDisplay());
     }, [])
 
     return (

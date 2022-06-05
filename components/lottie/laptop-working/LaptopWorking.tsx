@@ -19,5 +19,5 @@ export const LaptopWorking = () => {
         },
     }
 
-    return <Lottie options={defaultOptions} height={width / 1.5} width={width / 1.5} />
+    return <Lottie options={defaultOptions} width={width / 1.5} />
 }
