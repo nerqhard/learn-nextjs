@@ -5,9 +5,10 @@ import { useEffect, useState } from 'react'
 import styles from '../styles/Home.module.scss'
 import { useDispatch } from 'react-redux'
 import { getTextDisplay } from '../redux/common/operation'
+import { AppDispatch } from '../redux/store'
 
 const Home: NextPage = () => {
-    const dispatch = useDispatch();
+    const dispatch: AppDispatch = useDispatch();
     
     useEffect(() => {
         dispatch(getTextDisplay());

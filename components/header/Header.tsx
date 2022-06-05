@@ -8,10 +8,11 @@ import { FIRE_BASE_CONSTANTS } from 'constants/firebaseConstants'
 import { db } from '@/base/firebase'
 import { useDispatch } from 'react-redux'
 import { setTextDisplay } from '@/base/redux/common/operation'
+import { AppDispatch } from '@/base/redux/store'
 
 export const Header = () => {
     const router = useRouter()
-    const dispatch = useDispatch();
+    const dispatch: AppDispatch = useDispatch();
     const [openDialog, setOpenDialog] = useState(false)
 
     const handleOnClickVideos = () => {

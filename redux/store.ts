@@ -6,3 +6,4 @@ export const store = configureStore({
         common: commonReducer,
     },
 })
+export type AppDispatch = typeof store.dispatch;
